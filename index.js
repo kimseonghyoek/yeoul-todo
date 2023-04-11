@@ -11,11 +11,6 @@ function Clock() {
   }` : `${min}`}:${sec < 10 ? `0${sec}` : `${sec}`}`;
 }
 
-function SetUserName() {
-  var nameSpace = document.getElementById("user-name");
-  
-}
-
 function init() {
   Clock();
   setInterval(Clock, 1000);
