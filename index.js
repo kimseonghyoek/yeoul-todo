@@ -1,4 +1,5 @@
 var dates = document.getElementById("time");
+var userName = document.getElementById("user-name");
 
 function Clock() {
   var date = new Date();
@@ -16,4 +17,10 @@ function init() {
   setInterval(Clock, 1000);
 }
 
+function DrawName() {
+  var name = localStorage.getItem("User");
+  userName.innerText = `Welcome, ${name}`
+}
+
+DrawName();
 init();
