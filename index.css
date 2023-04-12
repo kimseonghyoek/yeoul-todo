@@ -10,6 +10,7 @@ body {
 #time {
   font-weight: bold;
   font-size: 95px;
+  margin: 15px;
 }
 
 #set-user-name>form {
@@ -31,22 +32,42 @@ body {
   border-radius: 5px;
 }
 
-#set-user-name>button {
-  font-family: 'Nanum Gothic', sans-serif;
-  font-weight: bold;
-  color: white;
-  margin: 15px;
-  width: 50%;
-  background-color: #73e9b2;
-  border: none;
-  height: 45px;
-  border-radius: 5px;
-  font-size: 20px;
-}
-
 .first {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.second {
+  display: flex;
+  justify-content: center;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 4.5px 6.5px;
+}
+
+.second>input {
+  width: 450px;
+  height: 5vh;
+  font-size: 18px;
+  font-family: 'Nanum Gothic', sans-serif;
+  border: none;
+  padding: 4.5px 6.5px;
+}
+
+.second>button {
+  width: 50px;
+  font-family: 'Nanum Gothic', sans-serif;
+  background-color: white;
+  border: none;
+}
+
+.second>button:hover {
+  background-color: #6dffc7;
+}
+
+.third {
+  display: flex;
+  justify-content: center;
 }

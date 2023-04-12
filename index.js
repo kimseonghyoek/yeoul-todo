@@ -1,5 +1,6 @@
 var dates = document.getElementById("time");
 var userName = document.getElementById("user-name");
+var todolist = document.getElementById("todo-list");
 
 function Clock() {
   var date = new Date();
@@ -20,6 +21,11 @@ function init() {
 function DrawName() {
   var name = localStorage.getItem("User");
   userName.innerText = `Welcome, ${name}`
+}
+
+function AddTodo(todo) {
+  var li = document.createElement('li');
+  var span = document.createElement("span");
 }
 
 DrawName();
