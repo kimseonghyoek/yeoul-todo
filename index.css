@@ -61,6 +61,7 @@ body {
   font-family: 'Nanum Gothic', sans-serif;
   background-color: white;
   border: none;
+  font-weight: bold;
 }
 
 .second>button:hover {
@@ -70,4 +71,7 @@ body {
 .third {
   display: flex;
   justify-content: center;
+  border: 1px solid black;
+  margin: 25px 0px;
+  border-radius: 5px;
 }
