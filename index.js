@@ -26,6 +26,8 @@ function DrawName() {
 function AddTodo(todo) {
   var li = document.createElement('li');
   var span = document.createElement("span");
+  var p = document.createElement("p");
+  var btn = document.createElement("button");
 }
 
 DrawName();
