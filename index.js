@@ -1,6 +1,6 @@
 var dates = document.getElementById("time");
 var userName = document.getElementById("user-name");
-var todolist = document.getElementById("todo-list");
+var todoList = document.getElementById("todo-list");
 var todoForm = document.getElementById("add-todo");
 var todoInput = document.getElementById("todo-inputs")
 
