@@ -47,7 +47,7 @@ body {
   padding: 4.5px 6.5px;
 }
 
-.second>input {
+.second>form>input {
   width: 450px;
   height: 5vh;
   font-size: 18px;
@@ -56,15 +56,16 @@ body {
   padding: 4.5px 6.5px;
 }
 
-.second>button {
+.second>form>button {
   width: 50px;
   font-family: 'Nanum Gothic', sans-serif;
   background-color: white;
   border: none;
   font-weight: bold;
+  height: 100%;
 }
 
-.second>button:hover {
+.second>form>button:hover {
   background-color: #6dffc7;
 }
 
